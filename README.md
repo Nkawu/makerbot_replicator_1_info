@@ -23,14 +23,14 @@ The Replicator 1 does not consume `G-CODE`! Instead it uses `X3G` files (origina
 ## Specs
 
 ### Printing
-* Build envelope: 225 x 145 x 150 mm | 8.9 x 5.7 x 5.9 in
+* Build envelope: 225 x 145 x 150 mm / 8.9 x 5.7 x 5.9 in
 * Layer thickness: Choose 0.2-0.3 mm with stock nozzle
 * Stock nozzle diameter: 0.4 mm
 * Speed: 40 mm/s
 * Flow rate: approximately 24 cc/hr
 * Extruder Temperature: Recommended Maximum 230 C
 * Heated Build Platform: 120 C Maximum
-* Positioning precision: 2.5 micron on Z axis | 11 micron on XY axes
+* Positioning precision: 2.5 micron on Z axis / 11 micron on XY axes
 
 ### Electronics
 * MakerBot MightyBoard single-piece motherboard
@@ -50,7 +50,7 @@ The Replicator 1 does not consume `G-CODE`! Instead it uses `X3G` files (origina
 * Filament diameter: 1.75 mm
 
 ### Mechanical
-* Overall dimensions: 320 x 467 x 381 milimeters | 12.6 x 18.4 x 15 in
+* Overall dimensions: 320 x 467 x 381 milimeters / 12.6 x 18.4 x 15 in
 * Shipping weight: 32lbs
 * Linear ball bearings
 * Precision ground 8 mm shafts
@@ -94,8 +94,6 @@ As the original Makerbot Replicator 1 design files were public domain, the print
 ---
 
 ## The Replicator™ Diagram
-
-https://gist.github.com/Nkawu/3289b3a9e2309170ef62cc98af1bb234/raw/87a5a911243ef66774b3aa60d996e549a88f83b1/3.1.jpg
 
 Before we continue, let’s familiarize ourselves with some of the main features of The MakerBot Replicator.
 
