@@ -1,6 +1,6 @@
 # Makerbot Replicator Dual
 
-![Makerbot Replicator Dual](https://gist.github.com/Nkawu/3289b3a9e2309170ef62cc98af1bb234/raw/thereplicator_photo_small_1.jpg)
+![Makerbot Replicator Dual](./thereplicator_photo_small_1.jpg)
 
 ## Overview
 
@@ -97,7 +97,7 @@ As the original Makerbot Replicator 1 design files were public domain, the print
 
 Before we continue, let’s familiarize ourselves with some of the main features of The MakerBot Replicator.
 
-![Replicator Front](https://gist.github.com/Nkawu/3289b3a9e2309170ef62cc98af1bb234/raw/3.1.jpg)
+![Replicator Front](./3.1.jpg)
 
 1. Stepstruder MK8 (attached to mount)
 2. Build Platform
@@ -105,7 +105,7 @@ Before we continue, let’s familiarize ourselves with some of the main features
 4. Guide tubes
 5. SD Card slot (on side panel)
 
-![Replicator Back](https://gist.github.com/Nkawu/3289b3a9e2309170ef62cc98af1bb234/raw/3.2.jpg)
+![Replicator Back](./3.2.jpg)
 
 1. Power switch
 2. Power input
@@ -205,7 +205,7 @@ Here are some of the commonly used menu options:
 
 > I recommend using [SuperSlicer](https://github.com/supermerill/SuperSlicer).
 
-* An initial configuration bundle can be downloaded [SuperSlicer_config_bundle.ini](https://gist.github.com/Nkawu/3289b3a9e2309170ef62cc98af1bb234/raw/SuperSlicer_config_bundle.ini)
+* An initial configuration bundle can be downloaded [SuperSlicer_config_bundle.ini](./SuperSlicer_config_bundle.ini)
 * In SuperSlicer go to **File** -> **Import** -> **Import Config Bundle...** to import the bundle
 * You may need to adjust filament extrusion temperatures based on your filament
 * Adjust print settings like infill etc and slice!
