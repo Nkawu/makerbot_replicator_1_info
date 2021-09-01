@@ -1,6 +1,6 @@
 # Makerbot Replicator Dual
 
-![Makerbot Replicator Dual](./thereplicator_photo_small_1.jpg)
+![Makerbot Replicator Dual](./img/thereplicator_photo_small_1.jpg)
 
 ## Overview
 
@@ -97,7 +97,7 @@ As the original Makerbot Replicator 1 design files were public domain, the print
 
 Before we continue, let’s familiarize ourselves with some of the main features of The MakerBot Replicator.
 
-![Replicator Front](./3.1.jpg)
+![Replicator Front](./img/3.1.jpg)
 
 1. Stepstruder MK8 (attached to mount)
 2. Build Platform
@@ -105,7 +105,7 @@ Before we continue, let’s familiarize ourselves with some of the main features
 4. Guide tubes
 5. SD Card slot (on side panel)
 
-![Replicator Back](./3.2.jpg)
+![Replicator Back](./img/3.2.jpg)
 
 1. Power switch
 2. Power input
@@ -205,7 +205,7 @@ Here are some of the commonly used menu options:
 
 > I recommend using [SuperSlicer](https://github.com/supermerill/SuperSlicer).
 
-* An initial configuration bundle can be downloaded [SuperSlicer_config_bundle.ini](./SuperSlicer_config_bundle.ini)
+* An initial configuration bundle can be downloaded [SuperSlicer_config_bundle.ini](./download/SuperSlicer_config_bundle.ini)
 * In SuperSlicer go to **File** -> **Import** -> **Import Config Bundle...** to import the bundle
 * You may need to adjust filament extrusion temperatures based on your filament
 * Adjust print settings like infill etc and slice!
@@ -268,3 +268,47 @@ K-Type thermocouple
 > Use 0.4mm MK8 nozzles. Never try to replace a nozzle cold! Always do a preheat and remove the nozzle hot. Trying to remove it cold is a guaranteed way to shear one off!
 
 The nozzles on dual-extruder Replicators are adjusted at our factory to be within 0.3 mm of each other's heights, but if you want to fine-tune them, click [here](https://web.archive.org/web/20121201020214/http://www.makerbot.com/support/replicator/troubleshooting/support/replicator/troubleshooting/nozzle-shim) to learn how to use a Kapton tape shim to raise one side of the Stepstruder.
+
+
+### Changing the WiFi on the Raspberry Pi (OctoPrint)
+
+
+Remove the SD card, plug it into another Linux computer like e.g., the Raspberry Pi and enter in Terminal:
+Use an Ethernet cable to connect your Pi with your router directly.
+
+In order to change the WiFi settings on the Raspberry Pi, you will need to connect to edit and edit the WiFi settings file.
+
+#### Connect a HDMI monitor and USB keyboard to access the Linux console
+
+* Enter login credentials, default `pi` and `raspberry`
+
+* Edit the WiFi settings file
+
+```bash
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
+
+* Change the WiFi settings
+
+```
+network={
+   ssid="Test Wifi Network"
+   psk="SecretPassWord"
+}
+```
+
+#### Connect an ethernet cable between your computer and the Raspberry Pi, then use a terminal emulator to connect
+
+* Once the cable has been connected, open your terminal emulator
+* Connect to the raspberry pi
+
+```bash
+ssh pi@octopi.local
+```
+
+* Enter your password, then proceed as shown above
+
+#### Remove the microSD card from the Raspberry Pi and insert in your computer
+
+The `wpa_supplicant.conf` should be in the `/boot` folder on the SD card
+
