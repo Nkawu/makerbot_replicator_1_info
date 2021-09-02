@@ -1,5 +1,6 @@
 remote_theme: pixeldroid/programming-pages
 layout: page
+title: User Guide
 plugins:
 - jemoji
 #title: User Guide
