@@ -1,5 +1,7 @@
 remote_theme: pixeldroid/programming-pages
 layout: page
+plugins:
+- jemoji
 #title: User Guide
 #remote_theme: pmarsceill/just-the-docs
 #color_scheme: "light"
