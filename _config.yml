@@ -1,11 +1,12 @@
-title: User Guide
-remote_theme: pmarsceill/just-the-docs
-color_scheme: "light"
-search_enabled: false
-heading_anchors: true
-back_to_top: true
-back_to_top_text: "Back to top"
-gh_edit_link: false
+remote_theme: pixeldroid/programming-pages
+#title: User Guide
+#remote_theme: pmarsceill/just-the-docs
+#color_scheme: "light"
+#search_enabled: false
+#heading_anchors: true
+#back_to_top: true
+#back_to_top_text: "Back to top"
+#gh_edit_link: false
 #kramdown:
 #  syntax_highlighter_opts:
 #    block:
