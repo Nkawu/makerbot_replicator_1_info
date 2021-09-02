@@ -32,14 +32,14 @@ The Replicator 1 does not consume `G-CODE`! Instead it uses `X3G` files (origina
 ## Specs
 
 ### Printing
-* Build envelope: 225 x 145 x 150 mm / 8.9 x 5.7 x 5.9 in
-* Layer thickness: Choose 0.2-0.3 mm with stock nozzle
-* Stock nozzle diameter: 0.4 mm
-* Speed: 40 mm/s
-* Flow rate: approximately 24 cc/hr
-* Extruder Temperature: Recommended Maximum 230 C
-* Heated Build Platform: 120 C Maximum
-* Positioning precision: 2.5 micron on Z axis / 11 micron on XY axes
+* **Build envelope**: 225 x 145 x 150 mm / 8.9 x 5.7 x 5.9 in
+* **Layer thickness**: Choose 0.2-0.3 mm with stock nozzle
+* **Stock nozzle diameter**: 0.4 mm
+* **Speed**: 40 mm/s
+* **Flow rate**: approximately 24 cc/hr
+* **Extruder Temperature**: Recommended Maximum 230 C
+* **Heated Build Platform**: 120 C Maximum
+* **Positioning precision**: 2.5 micron on Z axis / 11 micron on XY axes
 
 ### Electronics
 * MakerBot MightyBoard single-piece motherboard
@@ -47,36 +47,36 @@ The Replicator 1 does not consume `G-CODE`! Instead it uses `X3G` files (origina
 * 4x20 LCD character display and multi-directional control pad
 * Piezoelectric buzzer
 * Software-controllable RGB LED lighting
-* Universal Power Supply: 100-240V, 50/60Hz, 4.0A (input), and takes standard IEC cable
+* **Universal Power Supply**: 100-240V, 50/60Hz, 4.0A (input), and takes standard IEC cable
 
 ### Software
 * Print from SD card or over USB
-* Input file type: X3G
-* [Sailfish Firmware](http://www.sailfishfirmware.com/doc/sailfish.html)
+* **Input file type**: X3G
+* **Firmware:**: [Sailfish](http://www.sailfishfirmware.com/doc/sailfish.html)
 
 ### Materials
 * Works with ABS, PLA, and other materials
-* Filament diameter: 1.75 mm
+* **Filament diameter**: 1.75 mm
 
 ### Mechanical
-* Overall dimensions: 320 x 467 x 381 milimeters / 12.6 x 18.4 x 15 in
-* Shipping weight: 32lbs
+* **Overall dimensions**: 320 x 467 x 381 milimeters / 12.6 x 18.4 x 15 in
+* **Shipping weight**: 32lbs
 * Linear ball bearings
 * Precision ground 8 mm shafts
 * Snap-on, snap-off carriage assemblies
 
 ### NEMA 17 Hybrid Stepper Motor
-* Manufacturer: Moons Motors
+* **Manufacturer**: Moons Motors
 * 200 steps per revolution (1.8 deg/step)
 * 2 Phase
 * Rated Voltage 4.83V DC
 * Rated Current 0.84A
-* Phase Resistance: 5.75 Ohm ± 10% (20º C)
-* Phase inductance: 9.3mH ± 20% (1kHz 1 V rms)
-* Holding torque: 0.28N.m Min.
-* Shaft diameter: 5mm / 0.188" (3/16")
-* Shaft length: 20mm
-* Motor depth: 34mm
+* **Phase Resistance**: 5.75 Ohm ± 10% (20º C)
+* **Phase inductance**: 9.3mH ± 20% (1kHz 1 V rms)
+* **Holding torque**: 0.28N.m Min.
+* **Shaft diameter**: 5mm / 0.188" (3/16")
+* **Shaft length**: 20mm
+* **Motor depth**: 34mm
 
 ---
 
