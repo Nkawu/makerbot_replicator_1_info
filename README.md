@@ -80,16 +80,6 @@ The Replicator 1 does not consume `G-CODE`! Instead it uses `X3G` files (origina
 
 ---
 
-## Design Files
-
-The Makerbot Replicator 1 was open source:
-
-* [The MakerBot Replicator](https://www.thingiverse.com/thing:18813)
-* [MakerBot Replicator Interface Board REVB](https://www.thingiverse.com/thing:16067)
-* [MakerBot Replicator Heater Board REVB](https://www.thingiverse.com/thing:16061)
-* [MakerBot MightyBoard RevE](https://www.thingiverse.com/thing:16058)
-* [MakerBot BotStep17 REVE](https://www.thingiverse.com/thing:16059)
-
 ## Clones
 
 As the original Makerbot Replicator 1 design files were public domain, the printer had many clones. Parts for the clones can usually be substituted:
@@ -321,3 +311,22 @@ ssh pi@octopi.local
 
 The `wpa_supplicant.conf` should be in the `/boot` folder on the SD card
 
+---
+
+## Design Files
+
+The Makerbot Replicator 1 was open source:
+
+* [The MakerBot Replicator](https://www.thingiverse.com/thing:18813)
+* [MakerBot Replicator Interface Board REVB](https://www.thingiverse.com/thing:16067)
+* [MakerBot Replicator Heater Board REVB](https://www.thingiverse.com/thing:16061)
+* [MakerBot MightyBoard RevE](https://www.thingiverse.com/thing:16058)
+* [MakerBot BotStep17 REVE](https://www.thingiverse.com/thing:16059)
+
+## Modifications
+
+* [Mk8 Spring loaded Drive Block Replicator 1](https://www.thingiverse.com/thing:231310)
+* [Active Cooling Fan Duct v2 for Replicator 1](https://www.thingiverse.com/thing:537918)
+* [Replicator Power Cord Support Bracket](https://www.thingiverse.com/thing:29761)
+* [Scorpio Spy - Raspberry Camera holder for 3d print CTC - FlashForge and Other](https://www.thingiverse.com/thing:2117003)
+* [Dial Indicator Mount For Replicator](https://www.thingiverse.com/thing:26389)
