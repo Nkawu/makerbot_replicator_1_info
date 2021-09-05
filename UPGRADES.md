@@ -1,7 +1,6 @@
 # MakerBot Replicator - Upgrade List
 
-**By Gary Crowell**
-*From `https://web.archive.org/web/20170703005748/http://www.eeweb.com/blog/gary_crowell/makerbot-replicator-upgrades`*
+**By Gary Crowell** from `https://web.archive.org/web/20170703005748/http://www.eeweb.com/blog/gary_crowell/makerbot-replicator-upgrades`*
 
 
 I’ve had a MakerBot Replicator for six months or so and had a great time with it so far. But to get the maximum use out of it, it has been necessary to apply quite a few upgrades that have been developed and supplied by the Replicator user community. Most of these upgrades have appeared on http://www.Thingiverse.com But there, those upgrades are mingled in with all of the other items on Thingiverse (over 30,000 now), and the search/keyword system leaves much to be desired. Sometimes its really difficult to go back and find an item that you know you had seen before.
@@ -96,7 +95,6 @@ This list was originally published on the MakerBot Google Group about a month ag
 * 30462: [Replicator Layout Grid & Glass Holder](http://www.thingiverse.com/thing:30462) LeftAngle  Sep 14, 2012
 * 32057: [Acrylic plattform upgrade for the Replicator](http://www.thingiverse.com/thing:32057) Eureka  Oct 8, 2012
 * 00000: [3 Point Leveling experiment on the Makerbot Replicator](https://groups.google.com/forum/?fromgroups=#!searchin/makerbot/3$20point/makerbot/eA8cUAkHRxc/p1wr_fy5veoJ) delsydsoftware
-
 * 35059: [Replicator HBP Support Upgrade](http://www.thingiverse.com/thing:35059) by [drandolph](http://www.thingiverse.com/drandolph) Nov 20, 2012
 * 35687: [Replicator Glass-to-HBP Clip](http://www.thingiverse.com/thing:35687) AdanA  Nov 25, 2012
 * 36002: [Interchangeagble magnetic build platform (Replicator)](http://www.thingiverse.com/thing:36002) barspin  Nov 28, 2012
