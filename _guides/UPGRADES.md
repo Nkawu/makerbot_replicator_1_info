@@ -1,7 +1,3 @@
----
-layout: post
-title: Makerbot Replicator Upgrade List
----
 # MakerBot Replicator - Upgrade List
 
 **By Gary Crowell** copied from `https://web.archive.org/web/20170703005748/http://www.eeweb.com/blog/gary_crowell/makerbot-replicator-upgrades`
