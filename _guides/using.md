@@ -16,8 +16,6 @@ order: 2
 {:toc}
 </details>
 
-## Using the Replicator
-
 Regarding dual extrusion, i.e. printing in 2 colors - just don't! The dual extruders are convenient to keep 2 different filaments loaded, but use only one at a time. Ideally you want to remove the nozzle not in use to avoid knocking print jobs of the bed.
 {:.ui.tiny.message}
 

@@ -9,7 +9,6 @@ order: 4
 
 **By Gary Crowell** copied from `https://web.archive.org/web/20170703005748/http://www.eeweb.com/blog/gary_crowell/makerbot-replicator-upgrades`
 
-
 I’ve had a MakerBot Replicator for six months or so and had a great time with it so far. But to get the maximum use out of it, it has been necessary to apply quite a few upgrades that have been developed and supplied by the Replicator user community. Most of these upgrades have appeared on **Thingiverse** But there, those upgrades are mingled in with all of the other items on Thingiverse (over 30,000 now), and the search/keyword system leaves much to be desired. Sometimes its really difficult to go back and find an item that you know you had seen before.
 
 The following list is collected from the items on Thingiverse that apply directly to the Replicator. While this makes it pretty easy to find everything, there is still a lot of duplication among items, and some things have been outdated or superceeded. No attempt has been make here to distinguish those items; they are only presented in loose categories, in chronological order. Later on, I may try to produce a ‘Best Of” list, but that will naturally be my own biased view.

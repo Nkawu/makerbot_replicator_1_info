@@ -16,8 +16,6 @@ order: 1
 {:toc}
 </details>
 
-## Overview
-
 The MakerBot Replicator 1 is a dual extruder 3D printer with a heated build plate. This 3D printer uses plastic build materials like ABS and PLA. The Replicator 1 offers a layer height resolution of 0.2 mm - 0.3 mm, a positioning precision of 2.5 micron on Z axis and 11 micron on XY axis, and a maximum build envelope of 8.9 x 5.7 x 5.9 in.
 
 The Replicator 1 does not consume `G-CODE`! Instead it uses `X3G` files (originally [`S3G`](https://github.com/makerbot/s3g/blob/master/doc/s3gProtocol.md)). Most modern slicing software, e.g. [Slic3r](https://slic3r.org/), [SuperSlicer](https://github.com/supermerill/SuperSlicer), [PrusaSlicer](https://www.prusa3d.com/prusaslicer/) or [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura) will take a `STL` file as input and create a `GCODE` file as output. This `GCODE` file will need to be converted into an `X3G` file (using the [**GPX**](https://github.com/markwal/GPX) application) in order for the Replicator to print your model.
@@ -101,7 +99,7 @@ As the original Makerbot Replicator 1 design files were public domain, the print
 
 Before we continue, let’s familiarize ourselves with some of the main features of The MakerBot Replicator.
 
-![Replicator Front](./img/3.1.jpg)
+![Replicator Front](../img/3.1.jpg)
 
 1. Stepstruder MK8 (attached to mount)
 2. Build Platform
@@ -109,7 +107,7 @@ Before we continue, let’s familiarize ourselves with some of the main features
 4. Guide tubes
 5. SD Card slot (on side panel)
 
-![Replicator Back](./img/3.2.jpg)
+![Replicator Back](../img/3.2.jpg)
 
 1. Power switch
 2. Power input
