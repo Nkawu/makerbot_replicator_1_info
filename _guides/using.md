@@ -104,7 +104,7 @@ If your platform is too low, your prints might not stick to the surface, and if 
 I recommend using [SuperSlicer](https://github.com/supermerill/SuperSlicer).
 {:.ui.small.info.message}
 
-* An initial configuration bundle can be downloaded [SuperSlicer_config_bundle.ini](/download/SuperSlicer_config_bundle.ini)
+* An initial configuration bundle can be downloaded [SuperSlicer_config_bundle.ini]({{ site.url }}{{ site.baseurl }}/download/SuperSlicer_config_bundle.ini)
 * In SuperSlicer go to **File** -> **Import** -> **Import Config Bundle...** to import the bundle
 * You may need to adjust filament extrusion temperatures based on your filament
 * Adjust print settings like infill etc and slice!
