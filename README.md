@@ -1,7 +1,3 @@
----
-layout: post
-title: Makerbot Replicator Dual
----
 # Makerbot Replicator Dual
 
 ![Makerbot Replicator Dual](./img/thereplicator_photo_small_1.jpg)
