@@ -116,7 +116,8 @@ Before we continue, let’s familiarize ourselves with some of the main features
 
 ## Using the Replicator
 
-> Regarding dual extrusion, i.e. printing in 2 colors - just don't! The dual extruders are convenient to keep 2 different filaments loaded, but use only one at a time. Ideally you want to remove the nozzle not in use to avoid knocking print jobs of the bed.
+Regarding dual extrusion, i.e. printing in 2 colors - just don't! The dual extruders are convenient to keep 2 different filaments loaded, but use only one at a time. Ideally you want to remove the nozzle not in use to avoid knocking print jobs of the bed.
+{:.ui.tiny.message}
 
 ### Review the Sailfish firmware documentation
 
@@ -125,7 +126,8 @@ Before we continue, let’s familiarize ourselves with some of the main features
 
 ### Menu Navigation
 
-> Most menu options don't need to be touched, refer to [Front Panel Operation](http://www.sailfishfirmware.com/doc/ui.html#x11-100003) for more info. When you see this :warning: an option can render the printer inoperable!
+Most menu options don't need to be touched, refer to [Front Panel Operation](http://www.sailfishfirmware.com/doc/ui.html#x11-100003) for more info. When you see this :warning: an option can render the printer inoperable!
+{:.ui.tiny.warning.message}
 
 Here are some of the commonly used menu options:
 
@@ -179,7 +181,9 @@ Here are some of the commonly used menu options:
 * Repeat all 4 positions to confirm you get the same amount of drag everywhere
 * Once satisfied, push the controller button a few times to end leveling mode
 
-> If your platform is too low, your prints might not stick to the surface, and if it's too high, the nozzles could damage the platform surface.
+If your platform is too low, your prints might not stick to the surface, and if it's too high, the nozzles could damage the platform surface.
+{:.ui.small.warning.message}
+
 
 ### Loading Filament
 
@@ -202,7 +206,8 @@ Here are some of the commonly used menu options:
 
 ### Setting up your Slicer
 
-> I recommend using [SuperSlicer](https://github.com/supermerill/SuperSlicer).
+I recommend using [SuperSlicer](https://github.com/supermerill/SuperSlicer).
+{:.ui.small.info.message}
 
 * An initial configuration bundle can be downloaded [SuperSlicer_config_bundle.ini](./download/SuperSlicer_config_bundle.ini)
 * In SuperSlicer go to **File** -> **Import** -> **Import Config Bundle...** to import the bundle
@@ -238,7 +243,8 @@ Here are some of the commonly used menu options:
 1. Select file on the Octoprint UI in a web browser
 1. Print while watching progress remotely with the webcam!
 
-> It is recommended that the extruder warm up at printing temperature for a good 5-10 minutes before attempting a first noodle when starting from cold. After it's warmed up, some prefer to "idle" at about 160C between builds. It's cold enough that the nozzle doesn't ooze and you're less likely to get a rising pool of molten ABS in the barrel.
+It is recommended that the extruder warm up at printing temperature for a good 5-10 minutes before attempting a first noodle when starting from cold. After it's warmed up, some prefer to "idle" at about 160C between builds. It's cold enough that the nozzle doesn't ooze and you're less likely to get a rising pool of molten ABS in the barrel.
+{:.ui.small.info.message}
 
 ---
 
