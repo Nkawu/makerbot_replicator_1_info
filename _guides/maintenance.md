@@ -7,14 +7,9 @@ order: 3
 
 # {{ page.title }}
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
 - TOC
+{::options toc_levels="2,3" /}
 {:toc}
-</details>
 
 ### Useful Links
 

@@ -7,14 +7,9 @@ order: 1
 
 # {{ page.title }}
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
 - TOC
+{::options toc_levels="2,3" /}
 {:toc}
-</details>
 
 The MakerBot Replicator 1 is a dual extruder 3D printer with a heated build plate. This 3D printer uses plastic build materials like ABS and PLA. The Replicator 1 offers a layer height resolution of 0.2 mm - 0.3 mm, a positioning precision of 2.5 micron on Z axis and 11 micron on XY axis, and a maximum build envelope of 8.9 x 5.7 x 5.9 in.
 
@@ -99,7 +94,7 @@ As the original Makerbot Replicator 1 design files were public domain, the print
 
 Before we continue, let’s familiarize ourselves with some of the main features of The MakerBot Replicator.
 
-![Replicator Front](../img/3.1.jpg)
+[![layouts](3.1.jpg "Replicator Front"){:.ui.image}](3.1.jpg)
 
 1. Stepstruder MK8 (attached to mount)
 2. Build Platform
@@ -107,7 +102,7 @@ Before we continue, let’s familiarize ourselves with some of the main features
 4. Guide tubes
 5. SD Card slot (on side panel)
 
-![Replicator Back](../img/3.2.jpg)
+[![layouts](3.2.jpg "Replicator Front"){:.ui.image}](3.2.jpg)
 
 1. Power switch
 2. Power input

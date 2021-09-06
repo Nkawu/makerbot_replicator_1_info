@@ -7,6 +7,10 @@ order: 4
 
 # {{ page.title }}
 
+- TOC
+{::options toc_levels="2,3" /}
+{:toc}
+
 **By Gary Crowell** copied from `https://web.archive.org/web/20170703005748/http://www.eeweb.com/blog/gary_crowell/makerbot-replicator-upgrades`
 
 I’ve had a MakerBot Replicator for six months or so and had a great time with it so far. But to get the maximum use out of it, it has been necessary to apply quite a few upgrades that have been developed and supplied by the Replicator user community. Most of these upgrades have appeared on **Thingiverse** But there, those upgrades are mingled in with all of the other items on Thingiverse (over 30,000 now), and the search/keyword system leaves much to be desired. Sometimes its really difficult to go back and find an item that you know you had seen before.
