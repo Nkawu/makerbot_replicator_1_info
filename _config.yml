@@ -20,8 +20,6 @@ collections:
     title: Layout API
     tab-order: 3
 highlighter: rouge
-kramdown:
-  footnote_backlink: "⮌"
 permalink: pretty
 sass:
   style: compressed
