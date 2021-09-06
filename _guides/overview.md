@@ -94,7 +94,7 @@ As the original Makerbot Replicator 1 design files were public domain, the print
 
 Before we continue, let’s familiarize ourselves with some of the main features of The MakerBot Replicator.
 
-[![layouts](3.1.jpg "Replicator Front"){:.ui.image}](3.1.jpg)
+[![layouts](3.1.jpg "Replicator Front View"){:.ui.image}](3.1.jpg)
 
 1. Stepstruder MK8 (attached to mount)
 2. Build Platform
@@ -102,7 +102,7 @@ Before we continue, let’s familiarize ourselves with some of the main features
 4. Guide tubes
 5. SD Card slot (on side panel)
 
-[![layouts](3.2.jpg "Replicator Front"){:.ui.image}](3.2.jpg)
+[![layouts](3.2.jpg "Replicator Rear View"){:.ui.image}](3.2.jpg)
 
 1. Power switch
 2. Power input
