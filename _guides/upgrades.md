@@ -1,8 +1,8 @@
 ---
 layout: page
-title: MakerBot Replicator - Upgrade List
+title: Upgrade List
 description: Gary Crowell's list of upgrades for the Makerbot Replicator 1
-order: 1
+order: 4
 ---
 
 # {{ page.title }}
