@@ -270,7 +270,8 @@ K-Type thermocouple
 
 * [REPLACING YOUR MK8 NOZZLE](https://web.archive.org/web/20121205043439/http://www.makerbot.com/support/replicator/troubleshooting/nozzle-swap/)
 
-> Use 0.4mm MK8 nozzles. Never try to replace a nozzle cold! Always do a preheat and remove the nozzle hot. Trying to remove it cold is a guaranteed way to shear one off!
+Use 0.4mm MK8 nozzles. Never try to replace a nozzle cold! Always do a preheat and remove the nozzle hot. Trying to remove it cold is a guaranteed way to shear one off!
+{:.ui.small.warning.message}
 
 The nozzles on dual-extruder Replicators are adjusted at our factory to be within 0.3 mm of each other's heights, but if you want to fine-tune them, click [here](https://web.archive.org/web/20121201020214/http://www.makerbot.com/support/replicator/troubleshooting/support/replicator/troubleshooting/nozzle-shim) to learn how to use a Kapton tape shim to raise one side of the Stepstruder.
 
