@@ -3,6 +3,13 @@ layout: page
 title: User Guide
 plugins:
 - jemoji
+collections:
+  guides:
+    output: true
+    permalink: "/:collection/:path/"
+    title: Other Documents
+    tab-order: 1
+
 #title: User Guide
 #remote_theme: pmarsceill/just-the-docs
 #color_scheme: "light"
