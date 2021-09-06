@@ -1,4 +1,11 @@
-# Makerbot Replicator Dual
+---
+layout: page
+title: Makerbot Replicator Manual
+category: home
+description: Guide to keep your Makerbot Replicator generation 1 alive
+---
+
+# {{ page.title }}
 
 ![Makerbot Replicator Dual](./img/thereplicator_photo_small_1.jpg)
 

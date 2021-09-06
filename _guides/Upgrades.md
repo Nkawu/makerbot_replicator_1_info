@@ -1,4 +1,11 @@
-# MakerBot Replicator - Upgrade List
+---
+layout: page
+title: MakerBot Replicator - Upgrade List
+description: Gary Crowell's list of upgrades for the Makerbot Replicator 1
+order: 1
+---
+
+# {{ page.title }}
 
 **By Gary Crowell** copied from `https://web.archive.org/web/20170703005748/http://www.eeweb.com/blog/gary_crowell/makerbot-replicator-upgrades`
 
