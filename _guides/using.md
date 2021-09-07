@@ -14,6 +14,15 @@ order: 2
 Regarding dual extrusion, i.e. printing in 2 colors - just don't! The dual extruders are convenient to keep 2 different filaments loaded, but use only one at a time. Ideally you want to remove the nozzle not in use to avoid knocking print jobs of the bed.
 {:.ui.tiny.message}
 
+### General Overview
+
+There are 4 different to produce a 3D printed object:
+
+1. **CAD (Computer-Aided Design) Software** This is software run on your desktop computer to create a 3-dimensional design of the object you are trying to print. Examples are Fusion 360, TinkerCAD, SketchUp, FreeCAD and many more. Most have a steep learning curve, but time well spent to master the software of your choice. This step is not required as "ready to print" designs can be downloaded from Thingiverse, Thangs, etc.
+1. **Slicer Software** This software also runs on your desktop computer. The software converts a geometric model produced by CAD (usually `STL`) into 3D printer instructiones (`G-CODE`). It literally slices the design into thin layers and produces printer instructions to print each layer. Examples are SuperSlicer (or PrusaSlicer / Slic3r), Cura, etc. This can also be a tricky step to master as you need to expirement with settings if, for example your print doesn't stick to the base plate, warps, etc.
+1. **Web Interface** Not all printers will have this, but it enables you to control and monitor all aspects of your printer and print jobs, remotely via your desktop computer or phone even. Most popular in this category is [**OctoPrint**](https://docs.octoprint.org/en/master/). This is usually installed on a Raspberry Pi and connected via USB directly to your printer.
+1. **Printer Firmware** This is the (usually manufacturer supplied) software that is installed on the printer itself. This software interprets the instructions (`G-CODE`) and instructs the printer where to move to and extrude filament. Usually controlled via an interface and display on the printer. The Makerbot Replicator works best with **Sailfish** firmware.
+
 ### Review the Sailfish firmware documentation
 
 * [Front Panel Operation](http://www.sailfishfirmware.com/doc/ui.html#x11-100003)
