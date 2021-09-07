@@ -21,6 +21,7 @@ The Replicator 1 does not consume `G-CODE`! Instead it uses `X3G` files (origina
 
 ## Useful Links
 
+* Download the [The Replicator Setup Guide]({{ site.url }}{{ site.baseurl }}/download/mt524.pdf)
 * [Original MakerBot Replicator™ Page](https://web.archive.org/web/20130118060633/http://store.makerbot.com/replicator.html)
 * [The Makerbot Replicator™ - Support](https://web.archive.org/web/20130126145337/http://www.makerbot.com/support/replicator)
 * [Sailfish Firmware Documentation](http://www.sailfishfirmware.com/doc/toc.html#x2-1000)
