@@ -16,7 +16,7 @@ Regarding dual extrusion, i.e. printing in 2 colors - just don't! The dual extru
 
 ### General Overview
 
-There are 4 different to produce a 3D printed object:
+There are 4 different pieces of software involved in the process to produce a 3D printed object:
 
 1. **CAD (Computer-Aided Design) Software** This is software run on your desktop computer to create a 3-dimensional design of the object you are trying to print. Examples are Fusion 360, TinkerCAD, SketchUp, FreeCAD and many more. Most have a steep learning curve, but time well spent to master the software of your choice. This step is not required as "ready to print" designs can be downloaded from Thingiverse, Thangs, etc.
 1. **Slicer Software** This software also runs on your desktop computer. The software converts a geometric model produced by CAD (usually `STL`) into 3D printer instructiones (`G-CODE`). It literally slices the design into thin layers and produces printer instructions to print each layer. Examples are SuperSlicer (or PrusaSlicer / Slic3r), Cura, etc. This can also be a tricky step to master as you need to expirement with settings if, for example your print doesn't stick to the base plate, warps, etc.
@@ -110,7 +110,7 @@ If your platform is too low, your prints might not stick to the surface, and if 
 
 ### Setting up your Slicer
 
-I recommend using [SuperSlicer](https://github.com/supermerill/SuperSlicer).
+An example configuration is provided only for [SuperSlicer](https://github.com/supermerill/SuperSlicer)
 {:.ui.small.info.message}
 
 * An initial configuration bundle can be downloaded [SuperSlicer_config_bundle.ini]({{ site.url }}{{ site.baseurl }}/download/SuperSlicer_config_bundle.ini)
