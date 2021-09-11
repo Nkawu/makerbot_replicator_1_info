@@ -133,6 +133,9 @@ An example configuration is provided only for [SuperSlicer](https://github.com/s
 1. Load filament
 1. Prime filament
 
+It is recommended that the extruder warm up at printing temperature for a good 5-10 minutes before attempting a first noodle when starting from cold. After it's warmed up, some prefer to "idle" at about 160C between builds. It's cold enough that the nozzle doesn't ooze and you're less likely to get a rising pool of molten ABS in the barrel.
+{:.ui.small.info.message}
+
 ### Steps
 1. Design/Download STL file
 1. Slice STL file into G-CODE file with the slicer
@@ -154,5 +157,8 @@ An example configuration is provided only for [SuperSlicer](https://github.com/s
 1. Select file on the Octoprint UI in a web browser
 1. Print while watching progress remotely with the webcam!
 
-It is recommended that the extruder warm up at printing temperature for a good 5-10 minutes before attempting a first noodle when starting from cold. After it's warmed up, some prefer to "idle" at about 160C between builds. It's cold enough that the nozzle doesn't ooze and you're less likely to get a rising pool of molten ABS in the barrel.
-{:.ui.small.info.message}
+### Shutting down
+* :warning: **DO NOT turn off the power until the temperature of both extruders are BELOW 50C** on the monitor screen on the printer display
+* :warning: The microSD card on the Raspberry Pi may get corrupted if you just turn off the power to it. There are methods to shut down the RPi gracefully:
+   * Go to the Octoprint web UI, click on the power button symbol then select `Shutdown system`
+   * Connect to the RPi from a terminal `ssh pi@octopi.local`, then type `sudo shutdown now`
