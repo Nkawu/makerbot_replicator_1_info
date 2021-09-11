@@ -118,7 +118,14 @@ An example configuration is provided only for [SuperSlicer](https://github.com/s
 * You may need to adjust filament extrusion temperatures based on your filament
 * Adjust print settings like infill etc and slice!
 * Click the **Slice Now** button to slice the model according to your settings
-* Click the **Export G-code** button to save a g-code file, or click the **G** button right next to it to send the g-code file directly to Octoprint as defined in the **Physical Printer** settings in SuperSlicer. 
+* Click the **Export G-code** button to save a g-code file, or click the **G** button right next to it to send the g-code file directly to Octoprint as defined in the **Physical Printer** settings in SuperSlicer.
+
+#### Hints and tips
+
+* SuperSlicer has a **Calibration** menu with several calibration options: use them!
+* For every filament you use, print a temperature tower in **Calibration > Filament temperature calibration**. This will enable to pick the ideal extrusion temperature for a specific filament.
+* You may find that the second nozzle knocks your print of the build plate. To prevent this, align your print along the Y axis (front to back) to prevent the second nozzle to move over the print. Another option is to simply remove the nozzle, but don't forget to heat up the extruder before you do.
+* If the print just doesn't stick, chances are your build plate needs to be aligned
 
 ### Preparation
 1. Power on Replicator
