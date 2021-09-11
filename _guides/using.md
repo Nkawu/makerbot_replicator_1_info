@@ -20,7 +20,7 @@ There are 4 different pieces of software involved in the process to produce a 3D
 
 1. **CAD (Computer-Aided Design) Software** This is software run on your desktop computer to create a 3-dimensional design of the object you are trying to print. Examples are Fusion 360, TinkerCAD, SketchUp, FreeCAD and many more. Most have a steep learning curve, but time well spent to master the software of your choice. This step is not required as "ready to print" designs can be downloaded from Thingiverse, Thangs, etc.
 1. **Slicer Software** This software also runs on your desktop computer. The software converts a geometric model produced by CAD (usually `STL`) into 3D printer instructiones (`G-CODE`). It literally slices the design into thin layers and produces printer instructions to print each layer. Examples are SuperSlicer (or PrusaSlicer / Slic3r), Cura, etc. This can also be a tricky step to master as you need to expirement with settings if, for example your print doesn't stick to the base plate, warps, etc.
-1. **Web Interface** Not all printers will have this, but it enables you to control and monitor all aspects of your printer and print jobs, remotely via your desktop computer or phone even. Most popular in this category is [**OctoPrint**](https://docs.octoprint.org/en/master/). This is usually installed on a Raspberry Pi and connected via USB directly to your printer.
+1. **Web Interface** Not all printers will have this, but it enables you to control and monitor all aspects of your printer and print jobs, remotely via your desktop computer or phone even. Most popular in this category is [**OctoPrint**](https://octoprint.org/download/). This is usually installed on a Raspberry Pi and connected via USB directly to your printer.
 1. **Printer Firmware** This is the (usually manufacturer supplied) software that is installed on the printer itself. This software interprets the instructions (`G-CODE`) and instructs the printer where to move to and extrude filament. Usually controlled via an interface and display on the printer. The Makerbot Replicator works best with **Sailfish** firmware.
 
 ### Review the Sailfish firmware documentation
@@ -143,22 +143,22 @@ It is recommended that the extruder warm up at printing temperature for a good 5
 #### Using SD card
 1. Convert G-CODE file to X3G file using GPX
 1. Save X3G file onto SD card and insert into Replicator
-1. Select file using the control pad and LCD display
+1. Select file using the menu option **Print from SD**
 1. Print!
 
 ### OR
 
 #### Using OctoPrint
 1. Power on the Raspberry Pi
-1. Access the OctoPrint UI on a web browser
+1. Access the [OctoPrint UI](http://octopi.local) on a web browser
 1. Connect OctoPrint to the Replicator
-1. Upload G-CODE file from Octoprint or send it directly to OctoPrint from your slicer
+1. Upload G-CODE file to Octoprint or send it directly to OctoPrint from your slicer
 1. GPX plugin in Octoprint will automatically convert G-CODE to X3G
-1. Select file on the Octoprint UI in a web browser
-1. Print while watching progress remotely with the webcam!
+1. Select file to print on the Octoprint UI
+1. Print while watching progress remotely with the webcam (if you have one installed)
 
 ### Shutting down
-* :warning: **DO NOT turn off the power until the temperature of both extruders are BELOW 50C** on the monitor screen on the printer display
+* :warning: **DO NOT turn off the power** until the temperature of both extruders is **BELOW 50C** on the printer display **Utilities** -> **Monitor Mode**
 * :warning: The microSD card on the Raspberry Pi may get corrupted if you just turn off the power to it. There are methods to shut down the RPi gracefully:
-   * Go to the Octoprint web UI, click on the power button symbol then select `Shutdown system`
+   * Go to the Octoprint web UI, click on the power button symbol then select **Shutdown system**
    * Connect to the RPi from a terminal `ssh pi@octopi.local`, then type `sudo shutdown now`
