@@ -110,3 +110,5 @@ Before we continue, let’s familiarize ourselves with some of the main features
 3. USB input
 4. Reset switch
 5. Spool holders
+
+[![layouts](3.2.jpg "Replicator Diagram"){:.ui.image}](repl_diagram.jpg)
