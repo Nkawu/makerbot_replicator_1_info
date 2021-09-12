@@ -223,5 +223,13 @@ SuperSlicer | Ultimaker Cura
 \[first_layer_temperature] | {material_print_temperature_layer_0}
 \[first_layer_height] | {layer_height_0}
 
+Cura provides a built in configuration for the Makerbot Replicator which has most of the settings in place, except:
+
+* **Origin at center** must be checked
+* **G-code flavor** must be `RepRap
+* **Apply Extruder offsets to GCode** must be UNchecked
+* **Start G-code** must be added as shown above, and the appropriate replacement pattern tokens
+* **End G-code** must be added as shown above
+
 If you are using Dual Extrusion with the Ultimaker Cura, you cannot use the provided printer configuration for the Makerbot Replicator, as you will not be able to define a second extruder. The solution is to add a **Custom** printer. Most of the settings can be copied from the Makerbot Replicator setup.
 {:.ui.small.info.message}

@@ -140,9 +140,10 @@ It is recommended that the extruder warm up at printing temperature for a good 5
 1. Design/Download STL file
 1. Slice STL file into G-CODE file with the slicer
 
-#### Using SD card
-1. Convert G-CODE file to X3G file using GPX
-1. Save X3G file onto SD card and insert into Replicator
+#### Using SD Card
+1. Save the G-CODE file to your computer (use short filenames!)
+1. Convert G-CODE file to X3G file using the [**GPX**](https://github.com/markwal/GPX) utility
+1. Copy the X3G file onto the SD card and insert into Replicator
 1. Select file using the menu option **Print from SD**
 1. Print!
 
