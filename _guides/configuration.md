@@ -33,7 +33,7 @@ Height / Z | 150 mm
 Origin | Center of bed
 Origin X | 112.5 mm
 Origin Y | 72.5 mm
-Extruders | 1 or 2
+Extruders | 1 or 2 (only for dual extrusion)
 G-CODE Flavor | RepRap
 Start G-CODE | As shown below
 End G-CODE | As shown below
@@ -41,12 +41,12 @@ Nozzle diameter | 0.4mm
 Filament | 1.75mm
 Max print speed | 100 mm/s
 
-The Makerbot Replicator's firmware will handle moost of the advanced settings like acceleration, print head spacing, etc automatically, these do not have to be set.
+The Makerbot Replicator's firmware will handle most of the advanced settings like acceleration, print head spacing, etc automatically, these do not have to be set.
 {:.ui.small.info.message}
 
 ### Slicer Configuration
 
-The Makerbot Replicator will need **start** and **end** G-CODE sections added to your slicer software. This will ensure your prints work as expected. The following G-CODE examples include substitution variables for **SuperSlicer**, other slicers like **Ultimaker Cura** may use different variables
+The Makerbot Replicator will need **start** and **end** G-CODE sections added to your slicer software. This will ensure your prints work as expected. The following G-CODE examples include substition patterns for **SuperSlicer**, other slicers like **Ultimaker Cura** may use different ones. An example is `[first_layer_temperature]`, which will be replaced with whatever value you set up in the slicer settings, like `210`
 
 #### Start G-CODE Right Extruder Only
 
@@ -223,5 +223,5 @@ SuperSlicer | Ultimaker Cura
 \[first_layer_temperature] | {material_print_temperature_layer_0}
 \[first_layer_height] | {layer_height_0}
 
-If you are using Dual Extrusion with the Ultimaker Cura, you cannot use the provided printer configuration for the Makerbot Replicator, as you will not be able to define a second extruder. The solution is to add a **Custom** printer. Most of the seetings can be copied from the Makerbot Replicator setup.
+If you are using Dual Extrusion with the Ultimaker Cura, you cannot use the provided printer configuration for the Makerbot Replicator, as you will not be able to define a second extruder. The solution is to add a **Custom** printer. Most of the settings can be copied from the Makerbot Replicator setup.
 {:.ui.small.info.message}
