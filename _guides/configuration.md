@@ -178,3 +178,33 @@ M70 P5 (PRINT COMPLETE)
 M72 P1; Play Ta-Da song
 ; **** end end.gcode ****
 ```
+
+#### Ultimaker Cura G-CODE Variables
+
+Substitute the following variables in the G-CODE above for use with Ultimaker Cura:
+
+SuperSlicer | Ultimaker Cura
+----------- | --------------
+first_layer_bed_temperature | material_bed_temperature_layer_0
+first_layer_temperature | material_print_temperature_layer_0
+first_layer_height | layer_height_0
+
+Other Cura variables:
+
+```
+{initial_extruder_nr}       The first extruder train used for the print
+
+{machine_width} Machine Width   The width (X-direction) of the printable area.
+{machine_depth} Machine Depth   The depth (Y-direction) of the printable area.
+
+{layer_height}  Layer Height    The height of each layer in mm. Higher values produce faster prints in lower resolution, lower values produce slower prints in higher resolution.
+{layer_height_0}    Initial Layer Height    The height of the initial layer in mm. A thicker initial layer makes adhesion to the build plate easier.
+{default_material_print_temperature}    Default Printing Temperature    The default temperature used for printing. This should be the "base" temperature of a material. All other print temperatures should use offsets based on this value
+{material_print_temperature}    Printing Temperature    The temperature used for printing.
+{material_print_temperature_layer_0}    Printing Temperature Initial Layer  The temperature used for printing the first layer. Set at 0 to disable special handling of the initial layer.
+{material_initial_print_temperature}    Initial Printing Temperature    The minimal temperature while heating up to the Printing Temperature at which printing can already start.
+{material_final_print_temperature}  Final Printing Temperature  The temperature to which to already start cooling down just before the end of printing.
+{default_material_bed_temperature}  Default Build Plate Temperature The default temperature used for the heated build plate. This should be the "base" temperature of a build plate. All other print temperatures should use offsets based on this value
+{material_bed_temperature}  Build Plate Temperature The temperature used for the heated build plate. If this is 0, the build plate is left unheated.
+{material_bed_temperature_layer_0}  Build Plate Temperature Initial Layer   The temperature used for the heated build plate at the first layer. If this is 0, the build plate is left unheated during the first layer.
+```
