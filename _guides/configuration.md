@@ -226,7 +226,7 @@ SuperSlicer | Ultimaker Cura
 Cura provides a built in configuration for the Makerbot Replicator which has most of the settings in place, except:
 
 * **Origin at center** must be checked
-* **G-code flavor** must be `RepRap
+* **G-code flavor** must be **RepRap**
 * **Apply Extruder offsets to GCode** must be UNchecked
 * **Start G-code** must be added as shown above, and the appropriate replacement pattern tokens
 * **End G-code** must be added as shown above
