@@ -223,6 +223,7 @@ SuperSlicer | Ultimaker Cura
 \[first_layer_temperature] | {material_print_temperature_layer_0}
 \[first_layer_height] | {layer_height_0}
 
+
 Cura provides a built in configuration for the Makerbot Replicator which has most of the settings in place, except:
 
 * **Origin at center** must be checked
