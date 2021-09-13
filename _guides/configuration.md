@@ -215,6 +215,12 @@ M72 P1; Play Ta-Da song
 
 #### Ultimaker Cura G-CODE Replacement Patterns
 
+Here is a helpful page on how to set up Cura to do the G-CODE to X3G conversion: [A better way to configure Cura to slice objects for your Makerbot Replicator 2 3D printer](https://jessestevens.com.au/2020/05/25/a-better-way-to-configure-cura-to-slice-objects-for-your-makerbot-replicator-2-3d-printer/)
+
+Note that the provided page above refers to the Makerbot Replicator 2, but will lvery likely worj with the Replicator 1
+{:.ui.small.info.message}
+
+
 Substitute the following tokens in the G-CODE above for use with Ultimaker Cura:
 
 SuperSlicer | Ultimaker Cura
